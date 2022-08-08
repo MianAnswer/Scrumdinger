@@ -3,27 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8320047028A02E8200E8ACDE /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320046F28A02E8200E8ACDE /* ScrumdingerApp.swift */; };
-		8320047228A02E8200E8ACDE /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320047128A02E8200E8ACDE /* MeetingView.swift */; };
-		8320047428A02E8500E8ACDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8320047328A02E8500E8ACDE /* Assets.xcassets */; };
-		8320047728A02E8500E8ACDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8320047628A02E8500E8ACDE /* Preview Assets.xcassets */; };
+		83365A9328A0B1D400F2EB1F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365A9228A0B1D400F2EB1F /* ScrumdingerApp.swift */; };
+		83365A9528A0B1D400F2EB1F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83365A9428A0B1D400F2EB1F /* MeetingView.swift */; };
+		83365A9728A0B1D500F2EB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83365A9628A0B1D500F2EB1F /* Assets.xcassets */; };
+		83365A9A28A0B1D500F2EB1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83365A9928A0B1D500F2EB1F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8320046C28A02E8200E8ACDE /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8320046F28A02E8200E8ACDE /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		8320047128A02E8200E8ACDE /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		8320047328A02E8500E8ACDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8320047628A02E8500E8ACDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8320047828A02E8500E8ACDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83365A8F28A0B1D400F2EB1F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83365A9228A0B1D400F2EB1F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
+		83365A9428A0B1D400F2EB1F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		83365A9628A0B1D500F2EB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83365A9928A0B1D500F2EB1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8320046928A02E8200E8ACDE /* Frameworks */ = {
+		83365A8C28A0B1D400F2EB1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8320046328A02E8200E8ACDE = {
+		83365A8628A0B1D400F2EB1F = {
 			isa = PBXGroup;
 			children = (
-				8320046E28A02E8200E8ACDE /* Scrumdinger */,
-				8320046D28A02E8200E8ACDE /* Products */,
+				83365A9128A0B1D400F2EB1F /* Scrumdinger */,
+				83365A9028A0B1D400F2EB1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8320046D28A02E8200E8ACDE /* Products */ = {
+		83365A9028A0B1D400F2EB1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8320046C28A02E8200E8ACDE /* Scrumdinger.app */,
+				83365A8F28A0B1D400F2EB1F /* Scrumdinger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8320046E28A02E8200E8ACDE /* Scrumdinger */ = {
+		83365A9128A0B1D400F2EB1F /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				8320046F28A02E8200E8ACDE /* ScrumdingerApp.swift */,
-				8320047128A02E8200E8ACDE /* MeetingView.swift */,
-				8320047328A02E8500E8ACDE /* Assets.xcassets */,
-				8320047828A02E8500E8ACDE /* Info.plist */,
-				8320047528A02E8500E8ACDE /* Preview Content */,
+				83365A9228A0B1D400F2EB1F /* ScrumdingerApp.swift */,
+				83365A9428A0B1D400F2EB1F /* MeetingView.swift */,
+				83365A9628A0B1D500F2EB1F /* Assets.xcassets */,
+				83365A9828A0B1D500F2EB1F /* Preview Content */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
-		8320047528A02E8500E8ACDE /* Preview Content */ = {
+		83365A9828A0B1D500F2EB1F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8320047628A02E8500E8ACDE /* Preview Assets.xcassets */,
+				83365A9928A0B1D500F2EB1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8320046B28A02E8200E8ACDE /* Scrumdinger */ = {
+		83365A8E28A0B1D400F2EB1F /* Scrumdinger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8320047B28A02E8500E8ACDE /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildConfigurationList = 83365A9D28A0B1D500F2EB1F /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
 			buildPhases = (
-				8320046828A02E8200E8ACDE /* Sources */,
-				8320046928A02E8200E8ACDE /* Frameworks */,
-				8320046A28A02E8200E8ACDE /* Resources */,
+				83365A8B28A0B1D400F2EB1F /* Sources */,
+				83365A8C28A0B1D400F2EB1F /* Frameworks */,
+				83365A8D28A0B1D400F2EB1F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,74 +84,74 @@
 			);
 			name = Scrumdinger;
 			productName = Scrumdinger;
-			productReference = 8320046C28A02E8200E8ACDE /* Scrumdinger.app */;
+			productReference = 83365A8F28A0B1D400F2EB1F /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8320046428A02E8200E8ACDE /* Project object */ = {
+		83365A8728A0B1D400F2EB1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					8320046B28A02E8200E8ACDE = {
-						CreatedOnToolsVersion = 12.4;
+					83365A8E28A0B1D400F2EB1F = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 8320046728A02E8200E8ACDE /* Build configuration list for PBXProject "Scrumdinger" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 83365A8A28A0B1D400F2EB1F /* Build configuration list for PBXProject "Scrumdinger" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8320046328A02E8200E8ACDE;
-			productRefGroup = 8320046D28A02E8200E8ACDE /* Products */;
+			mainGroup = 83365A8628A0B1D400F2EB1F;
+			productRefGroup = 83365A9028A0B1D400F2EB1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8320046B28A02E8200E8ACDE /* Scrumdinger */,
+				83365A8E28A0B1D400F2EB1F /* Scrumdinger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8320046A28A02E8200E8ACDE /* Resources */ = {
+		83365A8D28A0B1D400F2EB1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8320047728A02E8500E8ACDE /* Preview Assets.xcassets in Resources */,
-				8320047428A02E8500E8ACDE /* Assets.xcassets in Resources */,
+				83365A9A28A0B1D500F2EB1F /* Preview Assets.xcassets in Resources */,
+				83365A9728A0B1D500F2EB1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8320046828A02E8200E8ACDE /* Sources */ = {
+		83365A8B28A0B1D400F2EB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8320047228A02E8200E8ACDE /* MeetingView.swift in Sources */,
-				8320047028A02E8200E8ACDE /* ScrumdingerApp.swift in Sources */,
+				83365A9528A0B1D400F2EB1F /* MeetingView.swift in Sources */,
+				83365A9328A0B1D400F2EB1F /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8320047928A02E8500E8ACDE /* Debug */ = {
+		83365A9B28A0B1D500F2EB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -197,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,14 +205,13 @@
 			};
 			name = Debug;
 		};
-		8320047A28A02E8500E8ACDE /* Release */ = {
+		83365A9C28A0B1D500F2EB1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -252,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,45 +259,57 @@
 			};
 			name = Release;
 		};
-		8320047C28A02E8500E8ACDE /* Debug */ = {
+		83365A9E28A0B1D500F2EB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = EB9H298LU5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Scrumdinger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MianAnswer.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8320047D28A02E8500E8ACDE /* Release */ = {
+		83365A9F28A0B1D500F2EB1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = EB9H298LU5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Scrumdinger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MianAnswer.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8320046728A02E8200E8ACDE /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		83365A8A28A0B1D400F2EB1F /* Build configuration list for PBXProject "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8320047928A02E8500E8ACDE /* Debug */,
-				8320047A28A02E8500E8ACDE /* Release */,
+				83365A9B28A0B1D500F2EB1F /* Debug */,
+				83365A9C28A0B1D500F2EB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8320047B28A02E8500E8ACDE /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+		83365A9D28A0B1D500F2EB1F /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8320047C28A02E8500E8ACDE /* Debug */,
-				8320047D28A02E8500E8ACDE /* Release */,
+				83365A9E28A0B1D500F2EB1F /* Debug */,
+				83365A9F28A0B1D500F2EB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8320046428A02E8200E8ACDE /* Project object */;
+	rootObject = 83365A8728A0B1D400F2EB1F /* Project object */;
 }
